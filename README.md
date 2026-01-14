@@ -1,8 +1,10 @@
 # Bottone Luci
 Bottone conteggio luci accese con pop up interattivo per gestione luci
 
-![Anteprima](bottone.png)
-![Anteprima](popup.png)
+##Bottone
+![Anteprima](bottone.png)!
+## PopUp
+[Anteprima](popup.png)
 
 ## Descrizione
 Breve spiegazione di cosa fa questa configurazione.
