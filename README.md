@@ -16,8 +16,8 @@ luminosa o colore
 Per utilizzare questo codice sono necessari:
 - Home Assistant aggiornato
 - Luce compatibile
-- Mushroom card (scaricabile tramite HACS)
-- Bubble-card (scaricabile tramite HACS)
+- Mushroom card (scaricabile tramite HACS) https://github.com/piitaya/lovelace-mushroom
+- Bubble-card (scaricabile tramite HACS) https://github.com/Clooos/Bubble-Card
 
 ## Importante
 
