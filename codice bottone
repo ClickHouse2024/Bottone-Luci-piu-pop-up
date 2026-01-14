@@ -1,0 +1,21 @@
+type: custom:mushroom-template-card
+primary: |-
+  Luci:  {% set lights = [
+                states.light.luce_soggiorno,
+                states.light.luce_disimpegno,
+                states.light.luce_ingresso,
+# Aggiungi le altre luci che vuoi contare
+                 ] %}
+                 {{ lights | selectattr('state','eq','on') | list | count }}
+secondary: ""
+icon: mdi:lightbulb
+multiline_secondary: true
+tap_action:
+  action: navigate
+  navigation_path: "#Light-total"
+grid_options:
+  columns: 4
+  rows: auto
+color: blue
+vertical: true
+features_position: bottom
