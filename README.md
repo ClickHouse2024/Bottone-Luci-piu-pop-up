@@ -2,6 +2,7 @@
 Bottone conteggio luci accese con pop up interattivo per gestione luci
 
 ![Anteprima](bottone.png)
+![Anteprima](popup.png)
 
 ## Descrizione
 Breve spiegazione di cosa fa questa configurazione.
