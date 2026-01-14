@@ -23,20 +23,22 @@ Per utilizzare questo codice sono necessari:
 - Bubble Card (installabile tramite HACS)  
   https://github.com/Clooos/Bubble-Card
 
-## Importante
+## IMPORTANTE
 La parte di codice del bottone:
 
 ```yaml
 tap_action:
   action: navigate
   navigation_path: "#Light-total"
+```
 
 ```yaml
 card_type: pop-up
 hash: "#Light-total"
+```
 
 ## ESEMPIO
-""#Light-total"
+"#Light-total"
 
 Se i valori non coincidono, il pop-up non verrà aperto.
 
