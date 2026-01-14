@@ -1,66 +1,51 @@
-Bottone Luci
+## Bottone Luci
+## Bottone con conteggio delle luci accese e pop-up interattivo per la gestione delle luci
 
-Bottone con conteggio delle luci accese e pop-up interattivo per la gestione delle luci
+## Bottone
+![Anteprima](bottone.png)
 
-Bottone
+## PopUp
+![Anteprima](popup.png)
 
-PopUp
-
-Descrizione
-
-Questa configurazione permette di monitorare il numero di luci accese in Home Assistant.
+## Descrizione
+Questa configurazione permette di monitorare il numero di luci accese in Home Assistant.  
 Cliccando sul bottone è possibile:
+- accendere e spegnere le luci
+- modificare l’intensità luminosa
+- cambiare il colore (se supportato)
 
-accendere e spegnere le luci
-
-modificare l’intensità luminosa
-
-cambiare il colore (se supportato)
-
-Dipendenze
-
+## Dipendenze
 Per utilizzare questo codice sono necessari:
+- Home Assistant aggiornato
+- Luci compatibili con Home Assistant
+- Mushroom Card (installabile tramite HACS)  
+  https://github.com/piitaya/lovelace-mushroom
+- Bubble Card (installabile tramite HACS)  
+  https://github.com/Clooos/Bubble-Card
 
-Home Assistant aggiornato
-
-Luci compatibili con Home Assistant
-
-Mushroom Card (installabile tramite HACS)
-https://github.com/piitaya/lovelace-mushroom
-
-Bubble Card (installabile tramite HACS)
-https://github.com/Clooos/Bubble-Card
-
-Importante
-
+## Importante
 La parte di codice del bottone:
 
+```yaml
 tap_action:
   action: navigate
   navigation_path: "#Light-total"
 
-
-e la parte di codice del pop-up:
-
+```yaml
 card_type: pop-up
 hash: "#Light-total"
 
-
-Devono avere lo stesso valore in navigation_path e in hash.
-
-Esempio corretto:
-
-#generale-luci
-
+## ESEMPIO
+""#Light-total"
 
 Se i valori non coincidono, il pop-up non verrà aperto.
 
-Note
+## Note
 
 Configurazione mostrata nel video TikTok.
 Adattare entity_id e nomi delle luci in base al proprio sistema.
 
-Hardware utilizzato
+## Hardware Utilizzato
 
 Relè Zigbee Sonoff ZBMini Extreme (no neutro)
 👉 https://amzn.to/4pIKrLP
@@ -77,7 +62,7 @@ Govee COB Striscia LED Pro 3m
 Aqara Striscia LED T1 con Matter
 👉 https://amzn.to/4qRkN8C
 
-Affiliazione
+## Affiliazione
 
 I link Amazon presenti sono link affiliati.
 Acquistando tramite questi link supporti il canale senza costi aggiuntivi.
