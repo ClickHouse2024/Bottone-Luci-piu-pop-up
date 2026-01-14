@@ -36,3 +36,21 @@ devo vere in navigation_path e in hash lo stesso nome esempio: "#generale-luci"
 ## Note
 Configurazione mostrata nel video TikTok.
 Adattare entity_id e nomi in base al proprio sistema.
+
+
+## Hardware Utilizzato
+
+- Relè zigbee Sonoff ZBMini Extreme (no neutro)
+  👉 https://amzn.to/4pIKrLP
+- Lampada Govee da terra con base luminosa
+  👉 https://amzn.to/4qiRsnL
+- Lampada Govee da terra
+  👉 https://amzn.to/4aZ16HB
+- Govee COB Striscia LED Pro 3m
+  👉 https://amzn.to/3NLMUry
+- Aqara Striscia LED T1 con Matter
+  👉 https://amzn.to/4qRkN8C
+
+## Affiliazione
+I link Amazon presenti sono link affiliati.
+Acquistando tramite questi link supporti il canale senza costi aggiuntivi.
