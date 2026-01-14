@@ -1,0 +1,56 @@
+type: vertical-stack
+cards:
+  - type: custom:bubble-card
+    card_type: pop-up
+    hash: "#Light-total"
+    name: Luci
+    icon: mdi:ceiling-light-multiple-outline
+    width_desktop: 600px
+    margin_top_mobile: 18px
+    margin_top_desktop: 74px
+    auto_close: 30000
+    entity: group.luci
+    button_type: switch
+    show_attribute: false
+    attribute: order
+    card_layout: normal
+    show_last_changed: false
+    show_state: false
+  - type: custom:bubble-card
+    card_type: separator
+    name: Soggirono
+    icon: mdi:sofa-outline
+  - type: horizontal-stack
+    cards:
+      - type: custom:bubble-card
+        card_type: button
+        name: Soggiorno
+        entity: light.luce_soggiorno
+        show_state: true
+        button_type: switch
+        icon: mdi:lightbulb
+        tap_action:
+          action: more-info
+  - type: horizontal-stack
+    cards:
+      - type: custom:bubble-card
+        card_type: button
+        name: Govee Piccola
+        entity: light.govee_piccola_salotto
+        show_state: true
+        button_type: slider
+        icon: mdi:lightbulb
+        tap_action:
+          action: more-info
+  - type: horizontal-stack
+    cards:
+      - type: custom:bubble-card
+        card_type: button
+        name: Govee Grande
+        entity: light.govee_salotto_grande
+        show_state: true
+        button_type: slider
+        icon: mdi:lightbulb
+        tap_action:
+          action: more-info
+  
